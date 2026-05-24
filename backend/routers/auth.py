@@ -12,7 +12,7 @@ from utils.limiter import limiter
 router = APIRouter(prefix="/api/auth", tags=["Authentication"])
 
 @router.post("/request-otp", response_model=dict)
-@limiter.limit("3/10minute")
+
 def request_otp(request: Request, payload: schemas.OTPRequest, db: Session = Depends(database.get_db)):
     """
     Step 1: Request a 6-digit OTP code for a given Indian mobile number.

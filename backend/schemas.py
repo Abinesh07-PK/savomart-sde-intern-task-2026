@@ -11,10 +11,10 @@ class OTPRequest(BaseModel):
         # Allow numbers starting with +91 or clean 10-digit numbers
         clean_num = ''.join(filter(str.isdigit, v))
         if len(clean_num) == 10:
-            return v
-        elif len(clean_num) == 12 and clean_num.startswith("91"):
-            return v
-        raise ValueError("Invalid Indian mobile number. Must be 10 digits or start with +91.")
+            return clean_num
+        elif len(clean_num) == 12 and clean_num.startswith('91'):
+            return clean_num
+        raise ValueError('Invalid Indian mobile number. Must be 10 digits or start with +91.')
 
 class OTPVerify(BaseModel):
     mobile_number: str
@@ -94,6 +94,16 @@ class SupportResponse(BaseModel):
     id: int
     status: str
     message: str
+
+class MyTicketResponse(BaseModel):
+    id: int
+    issue_category: str
+    description: str
+    status: str
+    created_at: datetime.datetime
+
+    class Config:
+        from_attributes = True
 
 # --- AI CHAT SCHEMAS ---
 class ChatMessage(BaseModel):

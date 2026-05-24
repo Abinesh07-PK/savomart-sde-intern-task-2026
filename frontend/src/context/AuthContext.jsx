@@ -39,8 +39,10 @@ export const AuthProvider = ({ children }) => {
   // Request Mock OTP code
   const requestOtp = async (mobileNumber) => {
     try {
+      // Clean input number (remove non-digits)
+      const cleanNumber = mobileNumber.replace(/\D/g, '');
       const response = await client.post('/api/auth/request-otp', {
-        mobile_number: mobileNumber
+        mobile_number: cleanNumber,
       });
       return response.data; // { message, dev_otp }
     } catch (error) {
@@ -53,9 +55,11 @@ export const AuthProvider = ({ children }) => {
   // Verify OTP and save Token
   const verifyOtp = async (mobileNumber, otp) => {
     try {
+      // Clean number before verification
+      const cleanNumber = mobileNumber.replace(/\D/g, '');
       const response = await client.post('/api/auth/verify-otp', {
-        mobile_number: mobileNumber,
-        otp: otp
+        mobile_number: cleanNumber,
+        otp: otp,
       });
       const receivedToken = response.data.access_token;
       
