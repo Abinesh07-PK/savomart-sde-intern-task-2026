@@ -189,4 +189,4 @@ Our floating chat agent (💬) uses advanced conversational UX:
 
 [![Savomart Loyalty Companion Video Demo](https://img.shields.io/badge/Video_Demo-Savomart_Loyalty_Companion-782B90?style=for-the-badge&logo=youtube&logoColor=FFF200)](https://youtu.be/placeholder-demo-id)
 
-*(Alternatively, access the walkthrough video at the following link: [YouTube/Loom Placeholder Video URL](https://youtu.be/placeholder-demo-id))*
+*(Alternatively, access the walkthrough video at the following link:https://www.loom.com/share/c8b22d35b2f948829fa9985f5be4036e
