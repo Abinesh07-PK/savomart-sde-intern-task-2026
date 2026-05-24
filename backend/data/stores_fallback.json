@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Savomart T-Nagar",
+    "address": "78 Pondy Bazaar, T-Nagar, Chennai, Tamil Nadu 600017",
+    "lat": 13.0418,
+    "lng": 80.2341,
+    "phone": "+914424345678",
+    "hours": "8 AM - 10 PM"
+  },
+  {
+    "id": 2,
+    "name": "Savomart Indiranagar",
+    "address": "560 12th Main Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "lat": 12.9718,
+    "lng": 77.6411,
+    "phone": "+918025211234",
+    "hours": "7 AM - 11 PM"
+  },
+  {
+    "id": 3,
+    "name": "Savomart Bandra",
+    "address": "24 Hill Road, Bandra West, Mumbai, Maharashtra 400050",
+    "lat": 19.0544,
+    "lng": 72.8402,
+    "phone": "+912226402468",
+    "hours": "8 AM - 10:30 PM"
+  },
+  {
+    "id": 4,
+    "name": "Savomart Connaught Place",
+    "address": "C-Block, Connaught Place, New Delhi, Delhi 110001",
+    "lat": 28.6304,
+    "lng": 77.2177,
+    "phone": "+911123419876",
+    "hours": "9 AM - 10 PM"
+  },
+  {
+    "id": 5,
+    "name": "Savomart Salt Lake",
+    "address": "Sector-3, Salt Lake City, Kolkata, West Bengal 700098",
+    "lat": 22.5726,
+    "lng": 88.4347,
+    "phone": "+913323351212",
+    "hours": "8 AM - 9:30 PM"
+  },
+  {
+    "id": 6,
+    "name": "Savomart Jubilee Hills",
+    "address": "Road No 36, Jubilee Hills, Hyderabad, Telangana 500033",
+    "lat": 17.4326,
+    "lng": 78.4071,
+    "phone": "+914023548900",
+    "hours": "7 AM - 10 PM"
+  },
+  {
+    "id": 7,
+    "name": "Savomart Koregaon Park",
+    "address": "Lane 5, Koregaon Park, Pune, Maharashtra 411001",
+    "lat": 18.5362,
+    "lng": 73.8930,
+    "phone": "+912026154321",
+    "hours": "8 AM - 10 PM"
+  },
+  {
+    "id": 8,
+    "name": "Savomart Kakkanad",
+    "address": "Seaport-Airport Road, Kakkanad, Kochi, Kerala 682030",
+    "lat": 10.0159,
+    "lng": 76.3544,
+    "phone": "+914842578901",
+    "hours": "8 AM - 10 PM"
+  },
+  {
+    "id": 9,
+    "name": "Savomart C-Scheme",
+    "address": "Sardar Patel Marg, C-Scheme, Jaipur, Rajasthan 302001",
+    "lat": 26.9124,
+    "lng": 75.7873,
+    "phone": "+911412367890",
+    "hours": "9 AM - 9:30 PM"
+  },
+  {
+    "id": 10,
+    "name": "Savomart Satellite",
+    "address": "Satellite Road, Ahmedabad, Gujarat 380015",
+    "lat": 23.0286,
+    "lng": 72.5089,
+    "phone": "+917926922334",
+    "hours": "8 AM - 10 PM"
+  }
+]
